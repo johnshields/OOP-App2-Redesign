@@ -23,4 +23,7 @@
 hs_err_pid*
 
 # intelliJ
-.idea/
+/Redesign of Application/.idea/
+
+# output folder
+/Redesign of Application/out/

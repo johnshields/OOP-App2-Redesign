@@ -4,7 +4,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /**
- * Class Kappa - Iterator
+ * Class Kappa (Iterator)
+ *
+ * Class Kappa has been created and it is inspired by the Iterator Pattern.
+ * This Class provides a way to access the elements of Beta, Epsilon, Zeta and Gamma to hide it from the Class Omicron (Client).
+ * All the Iterator methods for Beta, Epsilon, Zeta and Gamma have been taken from Delta and Alpha and have been implemented here.
+ *
  * @author John Shields - G00348436
  * @version 1.1
  */
@@ -19,25 +24,25 @@ public class Kappa {
     private final Collection<Zeta> zetas = new ArrayList<>();
     private final Collection<Gamma> gammas = new ArrayList<>();
 
-    public void betaIterator(){
+    public void betaIterator() {
         Beta beta = new Beta();
         System.out.println("Iterate over " + beta);
         betas.iterator();
     }
 
-    public void epsilonIterator(){
+    public void epsilonIterator() {
         Epsilon epsilon = new Epsilon();
         System.out.println("Iterate over " + epsilon);
         epsilons.iterator();
     }
 
-    public void zetaIterator(){
+    public void zetaIterator() {
         Zeta zeta = new Zeta();
         System.out.println("Iterate over " + zeta);
         zetas.iterator();
     }
 
-    public void gammaIterator(){
+    public void gammaIterator() {
         Gamma gamma = new Gamma();
         System.out.println("Iterate over " + gamma);
         gammas.iterator();

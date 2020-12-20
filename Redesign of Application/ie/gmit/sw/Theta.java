@@ -1,18 +1,22 @@
 package ie.gmit.sw;
 
-import java.util.LinkedList;
-
 /**
  * Class Theta
+ *
+ * The Theta Class has been created so the Omicron (Client) Class can access the Add, Remove and Has methods from the Classes Beta, Epsilon, Zeta and Gamma.
+ * With Theta, Omicron can now create a Singleton Instance of the Greek Alphabet from the class Delta.
+ *
  * @author John Shields - G00348436
  * @version 1.1
  */
-public class Theta{
+public class Theta {
     /**
      * fields and methods
+     * The Classes Beta, Epsilon, Zeta and Gamma are called
      * The Update Greek Alpha method calls the Add, Remove and Has methods from the Classes Beta, Epsilon, Zeta and Gamma and updates the states of Beta, Epsilon, Zeta and Gamma in a uniform way.
+     * The Get Instance method creates a singleton Instance of the Greek Alphabet from Delta.
      */
-    public void updateGreekAlpha(){
+    public void updateGreekAlpha() {
         Beta beta = new Beta();
         Epsilon epsilon = new Epsilon();
         Zeta zeta = new Zeta();
@@ -33,13 +37,8 @@ public class Theta{
         epsilon.hasEpsilon(epsilon);
     }
 
-    // get a singleton instance
-    public void getInstances(){
-        Delta betaInstance = Delta.getInstance();
-        System.out.println("\n" + "Beta Instance: " + System.identityHashCode(betaInstance));
-        System.out.println((betaInstance.getLetterList()));
-        LinkedList<String> betaLetters = betaInstance.getLetters(4);
-        System.out.println("Beta: " + betaLetters);
-        System.out.println((betaInstance.getLetterList()));
+    public void getInstance() {
+        Delta greekAlphaInstance = Delta.getGreekAlphaInstance();
+        System.out.println("Instance ID: " + System.identityHashCode(greekAlphaInstance));
     }
 }
