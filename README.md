@@ -1,2 +1,3 @@
-# AOODPP_AII
-Advanced Object-Oriented Design Principles &amp; Patterns - ASSESSMENT II
+# A Redesign of an Application 
+
+This redesign uses abstraction, design patterns such as Singleton and Iterator and a bit of simplicity to redesign this entire application...
