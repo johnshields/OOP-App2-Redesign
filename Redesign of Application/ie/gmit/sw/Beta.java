@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * Class Beta
  *
- * The Add, Remove and Has methods for Beta have been taken from Delta have been implemented into this class.
+ * The fields and the Add, Remove and Has methods for Beta have been taken from Delta and have been implemented into this class.
  *
  * @author John Shields - G00348436
  * @version 1.1

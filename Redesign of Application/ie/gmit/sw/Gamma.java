@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * Class Gamma
  *
- * The Add and Remove methods for Gamma have been taken from Alpha and have been implemented into this class.
+ *  The fields and the Add and Remove methods for Gamma have been taken from Alpha and have been implemented into this class.
  *
  * @author John Shields - G00348436
  * @version 1.1

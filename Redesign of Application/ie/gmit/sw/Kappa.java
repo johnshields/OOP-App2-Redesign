@@ -6,9 +6,9 @@ import java.util.Collection;
 /**
  * Class Kappa (Iterator)
  *
- * Class Kappa has been created and it is inspired by the Iterator Pattern.
+ * Kappa has been created and it is inspired by the Iterator Pattern.
+ * All the Iterator methods and fields for Beta, Epsilon, Zeta and Gamma have been taken from Delta and Alpha and have been implemented here.
  * This Class provides a way to access the elements of Beta, Epsilon, Zeta and Gamma to hide it from the Class Omicron (Client).
- * All the Iterator methods for Beta, Epsilon, Zeta and Gamma have been taken from Delta and Alpha and have been implemented here.
  *
  * @author John Shields - G00348436
  * @version 1.1
