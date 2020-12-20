@@ -6,3 +6,5 @@
 
 
 This redesign uses design patterns such as Singleton and Iterator plus refactoring and simplicity to improve on the original design of this application...
+
+The Redesign Ratonal can be found [here](https://github.com/johnshields/AOODPP_AII/wiki/Redesign-Rational).
