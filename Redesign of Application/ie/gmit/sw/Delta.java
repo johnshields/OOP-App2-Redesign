@@ -3,7 +3,7 @@ package ie.gmit.sw;
 /**
  * Class Delta (Singleton)
  *
- * Everything has been removed from Delta and have been spread out among their appropriate classes.
+ * Everything has been removed from Delta and have been spread out among to the appropriate classes.
  * Delta has now been turned into a Singleton class.
  * Delta uses the Static Block Initialization to create a Singleton instance at the time of class loading.
  * This Static Block provides exception handling for the Instance.
@@ -20,6 +20,8 @@ public class Delta {
      */
     private static final Delta greekAlphaInstance;
 
+    private Delta() {}
+
     static {
         try {
             greekAlphaInstance = new Delta();
@@ -27,12 +29,9 @@ public class Delta {
             throw new RuntimeException("Exception occurred in creating singleton instance of Greek Alphabet");
         }
     }
-
-    private Delta() {
-    }
-
     /**
      * Get Greek Alpha Instance method
+     * This method creates a singleton Instance of the Greek Alphabet.
      *
      * @return Greek Alpha Instance
      */

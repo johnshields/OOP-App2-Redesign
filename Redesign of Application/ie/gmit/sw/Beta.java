@@ -23,7 +23,7 @@ public class Beta {
     /**
      * Beta byte
      *
-     * @return (byte) (i ^ 0xFFFFFFFF)
+     * @return byte i ^ 0xFFFFFFFF
      */
     public byte beta(byte b) {
         int i = b;

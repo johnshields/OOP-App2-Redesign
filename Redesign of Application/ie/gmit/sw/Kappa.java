@@ -8,7 +8,7 @@ import java.util.Collection;
  *
  * Kappa has been created and it is inspired by the Iterator Pattern.
  * All the Iterator methods and fields for Beta, Epsilon, Zeta and Gamma have been taken from Delta and Alpha and have been implemented here.
- * This Class provides a way to access the elements of Beta, Epsilon, Zeta and Gamma to hide it from the Class Omicron (Client).
+ * Kappa provides a way to access the elements of Beta, Epsilon, Zeta and Gamma to hide them from the class Omicron (Client).
  *
  * @author John Shields - G00348436
  * @version 1.1

@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * Class Alpha
  *
- * The Add, Remove, Has and Iterator methods have been removed and have been spread out among their appropriate classes.
+ * The Add, Remove, Has and Iterator methods have been removed and have been spread out among to the appropriate classes.
  *
  * @author John Shields - G00348436
  * @version 1.1
@@ -26,8 +26,11 @@ public class Alpha {
         this.status = status;
     }
 
+    // switch statement
     public void add(Beta beta) {
         switch (status) {
+            // case statements
+            // values must be of same type of expression
             case Slight, Medium, Low -> betas.add(beta);
             case High, Extreme -> {
                 Beta betas = new Beta();
