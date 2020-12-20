@@ -1,3 +1,6 @@
-# A Redesign of an Application 
+# A Redesign of an Application
 
-This redesign that uses design patterns such as Singleton and Iterator and a bit of simplicity to improve on the original design of this application...
+## Advanced Object-Oriented Design Principles & Patterns
+#### John Shields - G00348436
+
+This redesign uses design patterns such as Singleton and Iterator plus a bit of simplicity to improve on the original design of this application...
