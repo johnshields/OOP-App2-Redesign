@@ -7,4 +7,4 @@
 
 This redesign uses design patterns such as Singleton and Iterator plus refactoring and simplicity to improve on the original design of this application...
 
-The Redesign Rationale can be found [here](https://github.com/johnshields/AOODPP_AII/wiki/Redesign-Rationale).
+The Redesign Rationale can be found [here](https://github.com/johnshields/OOP-App2-Redesign/wiki).
